@@ -285,3 +285,40 @@ form {
     font-family: "Trebuchet MS", Optima;
 }
 /***** END OF CONTACT FORM STYLING *****/
+
+/* Dark theme styling */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-theme .Navbar {
+    background-color: #333333;
+}
+
+body.dark-theme .Column_1 {
+    background-color: #333333;
+}
+
+body.dark-theme .Column_2 {
+    background-color: #555555;
+}
+
+body.dark-theme input[type=text] {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+body.dark-theme input[type=submit] {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-theme input[type=submit]:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark-theme footer {
+    background-color: #333333;
+}
